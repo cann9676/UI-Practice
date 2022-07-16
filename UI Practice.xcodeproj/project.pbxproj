@@ -11,6 +11,7 @@
 		839341312882523E0005DBCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839341302882523E0005DBCE /* ContentView.swift */; };
 		83934133288252400005DBCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83934132288252400005DBCE /* Assets.xcassets */; };
 		83934136288252400005DBCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83934135288252400005DBCE /* Preview Assets.xcassets */; };
+		8393413D288258310005DBCE /* EBGaramond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8393413C288258310005DBCE /* EBGaramond.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		839341302882523E0005DBCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		83934132288252400005DBCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83934135288252400005DBCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8393413C288258310005DBCE /* EBGaramond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EBGaramond.ttf; sourceTree = "<group>"; };
+		8393413E288259450005DBCE /* UI-Practice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UI-Practice-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		8393412D2882523E0005DBCE /* UI Practice */ = {
 			isa = PBXGroup;
 			children = (
+				8393413E288259450005DBCE /* UI-Practice-Info.plist */,
 				8393412E2882523E0005DBCE /* UI_PracticeApp.swift */,
 				839341302882523E0005DBCE /* ContentView.swift */,
+				8393413C288258310005DBCE /* EBGaramond.ttf */,
 				83934132288252400005DBCE /* Assets.xcassets */,
 				83934134288252400005DBCE /* Preview Content */,
 			);
@@ -127,6 +132,7 @@
 			files = (
 				83934136288252400005DBCE /* Preview Assets.xcassets in Resources */,
 				83934133288252400005DBCE /* Assets.xcassets in Resources */,
+				8393413D288258310005DBCE /* EBGaramond.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = 4Q8AHQMGE4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UI-Practice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = 4Q8AHQMGE4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UI-Practice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
