@@ -4,6 +4,10 @@
 //
 //  Created by Chelsea Hannah on 7/15/22.
 //
+//Three main views 1.Main Page 2.Insta like outfit page
+//Main Page is a preview of an article and shows the artsy part of the app
+//3.Articles Page
+//2. Should have a featured outfit of the day before scrolling to most recent outfits
 
 import SwiftUI
 
@@ -22,6 +26,20 @@ struct ContentView: View {
                 .foregroundColor(.white)
                 .multilineTextAlignment(.center)
                 .padding(.top, -400.0)
+                
+                
+            Text("Harry Styles Talks About His Favorite Jeans")
+                .padding(.top, 200)
+                .font(.custom("EBGaramond", size: 30))
+                .foregroundColor(.white)
+                .multilineTextAlignment(.trailing)
+           
+            Divider().frame(width: 300, height: 2, alignment: .trailing)
+                .background(Color.white)
+                .padding(.top, 300)
+                .padding(.leading, 100)
+    
+                
             HStack{
                 
             }
