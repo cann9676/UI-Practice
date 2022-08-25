@@ -28,7 +28,7 @@ struct ContentView: View {
                 .padding(.top, -400.0)
                 
                 
-            Text("Harry Styles Talks About His Favorite Jeans")
+            Text("Text")
                 .padding(.top, 200)
                 .font(.custom("EBGaramond", size: 30))
                 .foregroundColor(.white)
@@ -39,7 +39,12 @@ struct ContentView: View {
                 .padding(.top, 300)
                 .padding(.leading, 100)
     
-                
+            Text("Text")
+                .padding(.top, 410)
+                .font(.custom("EBGaramond", size: 30))
+                .foregroundColor(.white)
+                .multilineTextAlignment(.trailing)
+            
             HStack{
                 
             }
