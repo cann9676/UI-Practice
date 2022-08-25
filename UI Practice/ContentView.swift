@@ -4,10 +4,11 @@
 //
 //  Created by Chelsea Hannah on 7/15/22.
 //
-//Three main views 1.Main Page 2.Insta like outfit page
-//Main Page is a preview of an article and shows the artsy part of the app
-//3.Articles Page
-//2. Should have a featured outfit of the day before scrolling to most recent outfits
+// Three main views 1.Main Page 2.Insta like outfit page
+// Main Page is a preview of an article and shows the artsy part of the app
+// 3. Articles Page
+// 2. Should have a featured outfit of the day before scrolling to most recent outfits
+//Swipe left to get to next page
 
 import SwiftUI
 
@@ -22,7 +23,7 @@ struct ContentView: View {
             //fills image out to the edge of the phone
            
             Text("OURSELVES")
-                .font(.custom("EBGaramond", size: 50))
+                .font(.custom("EBGaramond", size: 50).bold())
                 .foregroundColor(.white)
                 .multilineTextAlignment(.center)
                 .padding(.top, -400.0)
@@ -38,16 +39,7 @@ struct ContentView: View {
                 .background(Color.white)
                 .padding(.top, 300)
                 .padding(.leading, 100)
-    
-            Text("Text")
-                .padding(.top, 410)
-                .font(.custom("EBGaramond", size: 30))
-                .foregroundColor(.white)
-                .multilineTextAlignment(.trailing)
             
-            HStack{
-                
-            }
     }
 }
 
