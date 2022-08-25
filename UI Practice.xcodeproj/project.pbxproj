@@ -35,6 +35,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83929C5F28B7BC5700188CD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				839341302882523E0005DBCE /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83929C6028B7BCAD00188CD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83929C6128B7BCB600188CD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83929C6228B7BCBE00188CD9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8393413C288258310005DBCE /* EBGaramond.ttf */,
+				83934132288252400005DBCE /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		839341222882523E0005DBCE = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +85,12 @@
 		8393412D2882523E0005DBCE /* UI Practice */ = {
 			isa = PBXGroup;
 			children = (
+				83929C6228B7BCBE00188CD9 /* Assets */,
+				83929C6128B7BCB600188CD9 /* Models */,
+				83929C6028B7BCAD00188CD9 /* Controllers */,
+				83929C5F28B7BC5700188CD9 /* Views */,
 				8393413E288259450005DBCE /* UI-Practice-Info.plist */,
 				8393412E2882523E0005DBCE /* UI_PracticeApp.swift */,
-				839341302882523E0005DBCE /* ContentView.swift */,
-				8393413C288258310005DBCE /* EBGaramond.ttf */,
-				83934132288252400005DBCE /* Assets.xcassets */,
 				83934134288252400005DBCE /* Preview Content */,
 			);
 			path = "UI Practice";
